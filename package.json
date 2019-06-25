@@ -30,7 +30,7 @@
     "broccoli-merge-trees": "^2.0.0",
     "ember-cli-babel": "^6.7.2",
     "fs-extra": "^4.0.1",
-    "render-vendor": "https://github.com/samkpower/render-vendor.git#d924c57244c0d55d9eaa7ac79a8fe569d4c075c1",
+    "render-vendor": "https://github.com/samkpower/render-vendor.git#wait-until-img",
     "typescript": "^2.4.2",
     "ws": "^3.2.0"
   },
