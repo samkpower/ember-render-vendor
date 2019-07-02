@@ -62,6 +62,7 @@ export default EObject.extend({
       return resolve();
     }
 
+    console.log('ember render vendor: before page.render');
     return page.render(opts);
   },
 
