@@ -5726,9 +5726,9 @@ remove-trailing-separator@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.0.2.tgz#69b062d978727ad14dc6b56ba4ab772fd8d70511"
 
-"render-vendor@https://github.com/samkpower/render-vendor.git#master":
+"render-vendor@https://github.com/samkpower/render-vendor.git#wait-until-img":
   version "0.2.0"
-  resolved "https://github.com/samkpower/render-vendor.git#9f5865a357271b409f6df6877a0c0dcd8d064f85"
+  resolved "https://github.com/samkpower/render-vendor.git#2444cdcc6a1426a5003bdb1e922f4691c0513b27"
   dependencies:
     babel-runtime "^6.25.0"
     commander "^2.11.0"
