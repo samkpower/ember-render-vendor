@@ -14,6 +14,8 @@ export default class RenderVendor extends Component {
 
       if (json.renderer === RENDERER_NAME) {
         this.data = json.data;
+
+        console.log('ember render vendor: message received');
       }
     });
   }
