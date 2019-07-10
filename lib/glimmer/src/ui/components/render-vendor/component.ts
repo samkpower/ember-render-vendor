@@ -14,6 +14,7 @@ export default class RenderVendor extends Component {
 
       if (json.renderer === RENDERER_NAME) {
         this.data = json.data;
+        window.onRender();
       }
     });
   }
