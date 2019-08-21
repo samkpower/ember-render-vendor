@@ -6092,7 +6092,7 @@ remove-trailing-separator@^1.0.1:
 
 "render-vendor@https://github.com/samkpower/render-vendor.git#wait-until-img":
   version "0.2.0"
-  resolved "https://github.com/samkpower/render-vendor.git#863f2e065d83f7221ad68d82dc8f8657776353fe"
+  resolved "https://github.com/samkpower/render-vendor.git#0e1744fe289ce81be0c2840ac317427d8fe41046"
   dependencies:
     babel-runtime "^6.25.0"
     commander "^2.11.0"
