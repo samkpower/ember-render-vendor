@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@glimmer/application": "^0.7.2",
-    "@glimmer/application-pipeline": "^0.8.3",
+    "@glimmer/application-pipeline": "^0.10.0",
     "@glimmer/component": "^0.6.0",
     "@glimmer/inline-precompile": "^1.0.0",
     "@glimmer/resolver": "^0.4.1",
