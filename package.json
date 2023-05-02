@@ -61,7 +61,7 @@
     "loader.js": "^4.6.0"
   },
   "peerDependencies": {
-    "ember-electron": "^2.1.0",
+    "ember-electron": "^4.21.0",
     "@electron/remote": "^2.0.9"
   },
   "engines": {
