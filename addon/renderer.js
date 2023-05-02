@@ -18,7 +18,7 @@ export default EObject.extend({
 
   remote: computed(function() {
     if (isPresent(window.requireNode)) {
-      return window.requireNode('electron').remote;
+      return window.requireNode('@electron/remote');
     }
   }).volatile(),
 
