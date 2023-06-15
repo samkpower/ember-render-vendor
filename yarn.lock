@@ -10175,9 +10175,9 @@ remove-trailing-separator@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.0.2.tgz#69b062d978727ad14dc6b56ba4ab772fd8d70511"
 
-"render-vendor@https://github.com/samkpower/render-vendor.git#try-firefox":
+"render-vendor@https://github.com/samkpower/render-vendor.git#try-firefox-1":
   version "0.2.0"
-  resolved "https://github.com/samkpower/render-vendor.git#82ba62dbcb6fdc0ef5ec181e6a0b50da91909113"
+  resolved "https://github.com/samkpower/render-vendor.git#ab4ade6df12cc2e48de61d19bfb8dab59dc740b4"
   dependencies:
     babel-runtime "^6.25.0"
     commander "^2.11.0"
