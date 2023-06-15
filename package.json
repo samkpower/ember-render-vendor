@@ -30,7 +30,7 @@
     "broccoli-merge-trees": "^2.0.0",
     "ember-cli-babel": "^6.7.2",
     "fs-extra": "^4.0.1",
-    "render-vendor": "https://github.com/samkpower/render-vendor.git#upgrade-puppeteer-boot",
+    "render-vendor": "https://github.com/samkpower/render-vendor.git#upgrade-puppeteer",
     "typescript": "^2.4.2",
     "ws": "^3.2.0"
   },
@@ -61,8 +61,8 @@
     "loader.js": "^4.6.0"
   },
   "peerDependencies": {
-    "ember-electron": "^2.1.0",
-    "@electron/remote": "^2.0.9"
+    "@electron/remote": "^2.0.9",
+    "ember-electron": "^2.1.0"
   },
   "engines": {
     "node": ">= 0.12.0"
