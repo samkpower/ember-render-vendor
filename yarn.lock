@@ -9560,9 +9560,9 @@ remove-trailing-separator@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.0.2.tgz#69b062d978727ad14dc6b56ba4ab772fd8d70511"
 
-"render-vendor@https://github.com/samkpower/render-vendor.git#wait-until-img-build":
+"render-vendor@https://github.com/samkpower/render-vendor.git#upgrade-puppeteer-boot":
   version "0.2.0"
-  resolved "https://github.com/samkpower/render-vendor.git#cb7116b12c458fe2ee774a363b79b6aaf8f08541"
+  resolved "https://github.com/samkpower/render-vendor.git#514997ceb5c6fb4c0f05abba89b08b65a2da9c46"
   dependencies:
     babel-runtime "^6.25.0"
     commander "^2.11.0"
@@ -11180,10 +11180,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
