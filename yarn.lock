@@ -1672,9 +1672,9 @@ acorn@^8.2.4:
   integrity sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==
 
 acorn@^8.7.0:
-  version "8.8.2"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
-  integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
+  version "8.9.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.9.0.tgz#78a16e3b2bcc198c10822786fa6679e245db5b59"
+  integrity sha512-jaVNAFBHNLXspO543WnNNPZFRtavh3skAkITqD0/2aeMkKZTN+254PyhwxFYrk3vQ1xfY+2wbesJMs/JC8/PwQ==
 
 after@0.8.1:
   version "0.8.1"
@@ -4012,10 +4012,10 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
-chromium-bidi@0.4.11:
-  version "0.4.11"
-  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-0.4.11.tgz#d3eafb0a99f417406a734b889dacd777be5e227c"
-  integrity sha512-p03ajLhlQ5gebw3cmbDBFmBc2wnJM5dnXS8Phu6mblGn/KQd76yOVL5VwE0VAisa7oazNfKGTaXlIZ8Q5Bb9OA==
+chromium-bidi@0.4.12:
+  version "0.4.12"
+  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-0.4.12.tgz#54910b6b2c97d1d39c1162237b09e42fe6cdf803"
+  integrity sha512-yl0ngMHtYUGJa2G0lkcbPvbnUZ9WMQyMNSfYmlrGD1nHRNyI9KOGw3dOaofFugXHHToneUaSmF9iUdgCBamCjA==
   dependencies:
     mitt "3.0.0"
 
@@ -4719,14 +4719,14 @@ define-property@^2.0.2:
     isobject "^3.0.1"
 
 degenerator@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/degenerator/-/degenerator-4.0.2.tgz#55b7fb41239ee0ea7644fa3f2aba84e0adfaa40c"
-  integrity sha512-HKwIFvZROUMfH3qI3gBpD61BYh7q3c3GXD5UGZzoVNJwVSYgZKvYl1fRMXc9ozoTxl/VZxKJ5v/bA+19tywFiw==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/degenerator/-/degenerator-4.0.3.tgz#5fa3e42206797ca78e0ee265f968aafc3bc84f49"
+  integrity sha512-2wY8vmCfxrQpe2PKGYdiWRre5HQRwsAXbAAWRbC+z2b80MEpnWc8A3a9k4TwqwN3Z/Fm3uhNm5vYUZIbMhyRxQ==
   dependencies:
     ast-types "^0.13.2"
     escodegen "^1.8.1"
     esprima "^4.0.0"
-    vm2 "^3.9.17"
+    vm2 "^3.9.19"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -9797,26 +9797,26 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@20.7.1:
-  version "20.7.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-20.7.1.tgz#fdbb6d4fa6fda4a97e299d2f191fdcfab5832758"
-  integrity sha512-f45j9JxImFaYndQYsFA39CEDKwpn1nAF/Iw7urznatjhaslSB/RfHG7sC7iPpDbmP+CLpPEkHhqNxqpaUDdTLw==
+puppeteer-core@20.7.2:
+  version "20.7.2"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-20.7.2.tgz#e9d527701108693c37d3f9d5980c10b883e00378"
+  integrity sha512-4Sd+v2YLlYMYFP/9SI/spT1joGTePwhmKP89pchUqz7VcWwv/Yh0Atmsybz+7wWT0VPDnw0UhBM6iNEfXEoUvg==
   dependencies:
     "@puppeteer/browsers" "1.4.1"
-    chromium-bidi "0.4.11"
+    chromium-bidi "0.4.12"
     cross-fetch "3.1.6"
     debug "4.3.4"
     devtools-protocol "0.0.1135028"
     ws "8.13.0"
 
 puppeteer@^20.7.1:
-  version "20.7.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-20.7.1.tgz#82819bf88bb1ae7b5ca665684b33b7656dbb3613"
-  integrity sha512-yIkba2PT6rkPw85gCAmbW6KO6VVFTdONnvQp8taeMZaOTUJ193nVajykD1jT3vFbjvwKz8te9nbBVb9ITQqbPA==
+  version "20.7.2"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-20.7.2.tgz#f3c8db0eb34dc2ddb877bf34b9352e82d160bc38"
+  integrity sha512-SKg9TgUY3TJvnOy0VrkhduSvDQIjBsi+s/Ne6S+qD53MM6emau+oh+kNqySNrT7c4qkg27UrJ9aEnltKDAQTzQ==
   dependencies:
     "@puppeteer/browsers" "1.4.1"
     cosmiconfig "8.2.0"
-    puppeteer-core "20.7.1"
+    puppeteer-core "20.7.2"
 
 qs@6.5.0, qs@^6.4.0:
   version "6.5.0"
@@ -10177,7 +10177,7 @@ remove-trailing-separator@^1.0.1:
 
 "render-vendor@https://github.com/samkpower/render-vendor.git#use-local-chrom":
   version "0.2.0"
-  resolved "https://github.com/samkpower/render-vendor.git#147fe768ece0aeef37e164456b242b556b1429cf"
+  resolved "https://github.com/samkpower/render-vendor.git#5cf55f30a55c3023ee30beac368b757a1bf18336"
   dependencies:
     babel-runtime "^6.25.0"
     commander "^2.11.0"
@@ -11857,7 +11857,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vm2@^3.9.17:
+vm2@^3.9.19:
   version "3.9.19"
   resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.19.tgz#be1e1d7a106122c6c492b4d51c2e8b93d3ed6a4a"
   integrity sha512-J637XF0DHDMV57R6JyVsTak7nIL8gy5KH4r1HiwWLf/4GBbb5MKL5y7LpmF4A8E2nR6XmzpmMFQ7V7ppPTmUQg==
@@ -12180,6 +12180,7 @@ ws@8.13.0:
 ws@^3.2.0:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
+  integrity sha512-nnWLa/NwZSt4KQJu51MYlCcSQ5g7INpOrOMt4XV8j4dqTXdmlUmSHQ8/oLC069ckre0fRsgfvsKwbTdtKLCDkA==
   dependencies:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
