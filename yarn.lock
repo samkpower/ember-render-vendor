@@ -10177,7 +10177,7 @@ remove-trailing-separator@^1.0.1:
 
 "render-vendor@https://github.com/samkpower/render-vendor.git#use-local-chrom":
   version "0.2.0"
-  resolved "https://github.com/samkpower/render-vendor.git#5cf55f30a55c3023ee30beac368b757a1bf18336"
+  resolved "https://github.com/samkpower/render-vendor.git#5ab867e642c74b37b18aeddf0e7db3c82199ae72"
   dependencies:
     babel-runtime "^6.25.0"
     commander "^2.11.0"
