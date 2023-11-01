@@ -10,6 +10,7 @@ export default class RenderVendor extends Component {
     this.socket = new WebSocket('ws://localhost:8080');
 
     this.socket.addEventListener('message', (event) => {
+      console.log('ember render vendor', event)
       let json = JSON.parse(event.data);
 
       if (json.renderer === RENDERER_NAME) {
