@@ -12,7 +12,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/samkpower/ember-render-vendor",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -31,7 +31,7 @@
     "ember-auto-import": "2",
     "ember-cli-babel": "^6.7.2",
     "fs-extra": "^4.0.1",
-    "render-vendor": "https://github.com/samkpower/render-vendor.git#wait-until-img-build",
+    "render-vendor": "https://github.com/samkpower/render-vendor.git#puppeteer-update",
     "typescript": "^2.4.2",
     "ws": "^3.2.0"
   },
@@ -65,7 +65,7 @@
     "ember-electron": "^2.1.0"
   },
   "engines": {
-    "node": ">= 0.12.0"
+    "node": ">=18.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
