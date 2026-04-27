@@ -68,7 +68,8 @@ export default EObject.extend({
 
   renderTask: task(function * (data) {
     yield this.set('data', data);
-    setTimeout(() => { yield this.render() }, 100);
+    yield new Promise((resolve) => setTimeout(resolve, 100));
+    yield this.render();
   }).enqueue(),
 
   _emit: observer('data.serialized', function() {
