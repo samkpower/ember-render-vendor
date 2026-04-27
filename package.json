@@ -12,6 +12,7 @@
     "doc": "doc",
     "test": "tests"
   },
+  "main": "index.js",
   "repository": "https://github.com/samkpower/ember-render-vendor",
   "scripts": {
     "build": "ember build",
